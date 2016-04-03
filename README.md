@@ -10,7 +10,7 @@ An Autismic-Intelligence chatbot with a flair for the chaotic.
 // * A scoring system to bubble up solid memes and chemo out cancer  
 // * So much more!  
 //  
-// I have no idea what I am doing on here - this is a learning poject for me to rustle some jimmies and get some lulz  
+// I have no idea what I am doing on here - this is a learning project for me to rustle some jimmies and get some lulz  
 
 
 WATCH YOUR HAT AND COAT  
