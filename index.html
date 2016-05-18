@@ -3,14 +3,15 @@
  <head>
  <title>Socket.IO chat</title>
  <style>
+ @font-face { font-family: 'IBMVGA8'; src: url(/fonts/ibm_vga8.woff) format('woff'); }
  * { margin: 0; padding: 0; box-sizing: border-box; }
- body { background: #111111; font: 13px monospace; color: #00ff00}
+ body { background: #111111; font-family: IBMVGA8 ; font-size: 16px; color: #00ff00}
  form { background: rgb(128, 128, 128); padding: 3px; position: fixed; bottom: 0; width: 100%; }
- form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
- form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+ form input { font-family: IBMVGA8 ; font-size: 16px ; border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+ form button { font-family: IBMVGA8 ; font-size: 16px ; width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
  #messages { list-style-type: none; margin: 0; padding: 0; }
  #messages li { padding: 5px 10px; }
- #messages li:nth-child(odd) { background: #222222; }
+ #messages li:nth-child(odd) { background: #222222; color: #ffffff}
  </style>
  <link rel="icon" href="/favicon.ico" />
  </head>

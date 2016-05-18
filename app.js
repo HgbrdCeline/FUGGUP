@@ -14,6 +14,11 @@ app.get('/', function(req, res){
  console.log('Sent index.html')
 });
 
+app.get('/fonts/ibm_vga8.woff', function(req, res){
+ res.sendFile(__dirname + '/fonts/ibm_vga8.woff');
+ console.log('Sent /fonts/ibm_vga8.woff')
+});
+
 app.get('/favicon.ico', function(req, res){
  res.sendFile(__dirname + '/favicon.ico');
  console.log('Sent favicon.ico')
